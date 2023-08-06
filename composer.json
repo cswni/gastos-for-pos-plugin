@@ -1,6 +1,6 @@
 {
     "name": "cswni/gastos-for-pos-plugin",
-    "description": "This is my package gastos-for-pos-plugin",
+    "description": "Gestion de gastos para POS usando FilamentPHP",
     "keywords": [
         "cswni",
         "laravel",
