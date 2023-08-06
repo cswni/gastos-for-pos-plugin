@@ -2,9 +2,9 @@
 
 namespace Cswni\GastosForPosPlugin;
 
+use Cswni\GastosForPosPlugin\Resources\GastoResource;
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Cswni\GastosForPosPlugin\Resources\GastoResource;
 
 class GastosForPosPluginServiceProvider extends PluginServiceProvider
 {
@@ -44,6 +44,7 @@ class GastosForPosPluginServiceProvider extends PluginServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/cswni-gastos-for-pos.php', 'cswni-gastos-for-pos');
         $this->configurePublishing();
     }
+
     protected function configurePublishing(): void
     {
         if (! $this->app->runningInConsole()) {

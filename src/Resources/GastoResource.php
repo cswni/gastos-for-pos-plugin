@@ -3,11 +3,11 @@
 namespace Cswni\GastosForPosPlugin\Resources;
 
 use Cswni\GastosForPosPlugin\Models\Gasto;
+use Cswni\GastosForPosPlugin\Resources\GastoResource\Pages;
+use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
 use Filament\Tables;
-use Filament\Resources\Form;
-use Cswni\GastosForPosPlugin\Resources\GastoResource\Pages;
 
 class GastoResource extends Resource
 {
@@ -20,7 +20,7 @@ class GastoResource extends Resource
 
     protected static function getNavigationGroup(): ?string
     {
-        return __('tienda.group') ?? config('cswni-gastos-for-pos.navigation.group') ;
+        return __('tienda.group') ?? config('cswni-gastos-for-pos.navigation.group');
     }
 
     protected static function getNavigationSort(): ?int
@@ -69,8 +69,6 @@ class GastoResource extends Resource
             'edit' => Pages\EditGasto::route('/{record}/edit'),
         ];
     }
-
-
 
     /**--------------------------------*
     | Resource Related Logic Start     |

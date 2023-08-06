@@ -5,5 +5,5 @@ return [
     'navigation' => [
         'group' => 'Tienda',
         'sort' => 100,
-    ]
+    ],
 ];

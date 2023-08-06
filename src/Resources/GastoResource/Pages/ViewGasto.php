@@ -3,8 +3,8 @@
 namespace Cswni\GastosForPosPlugin\Resources\GastoResource\Pages;
 
 use Cswni\GastosForPosPlugin\Resources\GastoResource;
-use Filament\Resources\Pages\ViewRecord;
 use Filament\Pages\Actions;
+use Filament\Resources\Pages\ViewRecord;
 
 class ViewGasto extends ViewRecord
 {

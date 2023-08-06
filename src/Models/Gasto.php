@@ -2,9 +2,9 @@
 
 namespace Cswni\GastosForPosPlugin\Models;
 
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use App\Traits\BelongsToCompany;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Model;
 use Spatie\DeletedModels\Models\Concerns\KeepsDeletedModels;
 
 class Gasto extends Model
@@ -18,8 +18,9 @@ class Gasto extends Model
         'fecha',
         'monto',
         'descripcion',
-        'tipo_id'
+        'tipo_id',
     ];
+
     protected $casts = [
         'fecha' => 'datetime',
     ];
