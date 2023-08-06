@@ -2,11 +2,11 @@
 
 namespace Cswni\GastosForPosPlugin\Tests;
 
+use Cswni\GastosForPosPlugin\GastosForPosPluginServiceProvider;
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cswni\GastosForPosPlugin\GastosForPosPluginServiceProvider;
 
 class TestCase extends Orchestra
 {
