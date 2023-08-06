@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Cswni\GastosForPosPlugin;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
-class SkeletonServiceProvider extends PluginServiceProvider
+class GastosForPosPluginServiceProvider extends PluginServiceProvider
 {
-    public static string $name = 'skeleton';
+    public static string $name = 'gastos-for-pos-plugin';
 
     protected array $resources = [
         // CustomResource::class,
@@ -22,15 +22,15 @@ class SkeletonServiceProvider extends PluginServiceProvider
     ];
 
     protected array $styles = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.css',
+        'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos-plugin.css',
     ];
 
     protected array $scripts = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.js',
+        'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos-plugin.js',
     ];
 
     // protected array $beforeCoreScripts = [
-    //     'plugin-skeleton' => __DIR__ . '/../resources/dist/skeleton.js',
+    //     'plugin-gastos-for-pos-plugin' => __DIR__ . '/../resources/dist/gastos-for-pos-plugin.js',
     // ];
 
     public function configurePackage(Package $package): void
