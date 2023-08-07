@@ -23,11 +23,11 @@ class GastosForPosPluginServiceProvider extends PluginServiceProvider
     ];
 
     protected array $styles = [
-        'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos.css',
+        //'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos.css',
     ];
 
     protected array $scripts = [
-        'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos.js',
+       //'plugin-gastos-for-pos-plugin' => __DIR__.'/../resources/dist/gastos-for-pos.js',
     ];
 
     // protected array $beforeCoreScripts = [
