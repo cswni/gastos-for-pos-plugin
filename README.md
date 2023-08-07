@@ -1,4 +1,4 @@
-# This is my package gastos-for-pos-plugin
+# Control de gastos con FilamentPHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cswni/gastos-for-pos-plugin.svg?style=flat-square)](https://packagist.org/packages/cswni/gastos-for-pos-plugin)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/cswni/gastos-for-pos-plugin/run-tests?label=tests)](https://github.com/cswni/gastos-for-pos-plugin/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -7,7 +7,7 @@
 
 
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Utiliza este paquete para la integración de gastos en tu proyecto de FilamentPHP. DIseñado para integrarse en el proyecto de POS Ecommerce.
 
 ## Installation
 
